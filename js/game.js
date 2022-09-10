@@ -36,7 +36,7 @@ function checkChar(e) {
 }
 
 document.addEventListener('keypress', (e) => {
-  console.log(mobileInput.value);
+  e.preventDefault();
   if (!checkChar(e)) {
     alert('Insira somente letras minusculas');
   } else {

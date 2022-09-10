@@ -66,11 +66,6 @@ main {
   color: #fff;
 }
 
-.new-word-button {
-  background: #e5e5e5;
-  color: #0a3871;
-}
-
 .start-button:hover {
   cursor: pointer;
   background: #042d60;
@@ -79,6 +74,11 @@ main {
 .new-word-button:hover {
   cursor: pointer;
   background: #ececec;
+}
+
+.new-word-button {
+  background: #e5e5e5;
+  color: #0a3871;
 }
 
 footer {
