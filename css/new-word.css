@@ -54,7 +54,7 @@ textarea:focus {
   outline: none;
 }
 
-textarea {
+.insert-word {
   background-color: #e5e5e5;
   color: #0a3871;
   font-family: 'Poppins', sans-serif;

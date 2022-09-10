@@ -25,6 +25,23 @@
   /* justify-content: flex-end; */
 }
 
+.mobile-input {
+  height: 1vh;
+}
+
+.mobile-input textarea {
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  height: 1vh;
+  font-size: 0.5em;
+  resize: none;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
 canvas {
   height: 90%;
 }

@@ -71,6 +71,16 @@ main {
   color: #0a3871;
 }
 
+.start-button:hover {
+  cursor: pointer;
+  background: #042d60;
+}
+
+.new-word-button:hover {
+  cursor: pointer;
+  background: #ececec;
+}
+
 footer {
   position: absolute;
   bottom: 0;

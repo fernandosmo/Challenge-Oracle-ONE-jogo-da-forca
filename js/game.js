@@ -2,6 +2,7 @@ import * as canva from './canva.js';
 import { words } from './new-word.js'; // import {words} from './new-word.js'
 
 const containerInserts = document.querySelector('.container-inserts');
+const mobileInput = document.querySelector('.txt');
 const createLetterDiv = (e) => document.createElement(e);
 
 function gameStart(chooseWord) {
@@ -35,6 +36,7 @@ function checkChar(e) {
 }
 
 document.addEventListener('keypress', (e) => {
+  console.log(mobileInput.value);
   if (!checkChar(e)) {
     alert('Insira somente letras minusculas');
   } else {
