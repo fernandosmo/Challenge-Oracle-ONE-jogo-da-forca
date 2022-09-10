@@ -15,9 +15,9 @@ function gameStart(chooseWord) {
   }
 }
 
-var sortWord = Math.floor(Math.random() * words.length);
+var Index = Math.floor(Math.random() * words.length);
 
-const chooseWord = words[sortWord];
+const chooseWord = words[Index];
 const chooseWordLength = chooseWord.length;
 const wordsPressedRight = new Set();
 const wordsPressedWrong = new Set();
@@ -91,7 +91,7 @@ document.addEventListener('keypress', (e) => {
     canva.drawLeftLeg();
     setTimeout(
       `
-      alert('Deu Ruim');
+      alert('Que pena, você perdeu. A palavra correta é ${chooseWord}');
       window.location = './new-game.html';
     `,
       300
