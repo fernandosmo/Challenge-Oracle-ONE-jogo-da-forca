@@ -11,9 +11,19 @@ export var words = [
   'banana',
   'kiwi',
   'aipim',
+  'mamao',
+  'ameixa',
+  'lima',
+  'pera',
+  'jambu',
+  'alpaca',
+  'cachorro',
+  'cadela',
+  'cavalo',
+  'camelo',
+  'gamba',
+  'porco',
 ];
-
-words = JSON.parse(localStorage.getItem('words'));
 
 function saveLocalStorage() {
   localStorage.setItem('words', JSON.stringify(words));
@@ -22,6 +32,8 @@ function saveLocalStorage() {
 if (localStorage.length == 0) {
   body.onload = saveLocalStorage();
 }
+
+words = JSON.parse(localStorage.getItem('words'));
 
 function checkChar(e) {
   const pattern = '[a-z]';
