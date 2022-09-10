@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/new-word.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <title>Hangman ONE - Nova Palavra</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <a href="./index.html"
+          ><img
+            class="logo"
+            src="./img/Vector.svg"
+            alt="Logo reduzida da Alura - letra A"
+        /></a>
+      </section>
+      <section>
+        <a href="./index.html"><h1 class="title">Hangman ONE</h1></a>
+      </section>
+    </header>
+    <main>
+      <form type="submit">
+        <textarea
+          class="insert-word"
+          placeholder="Digite uma palavra ou frase"
+          autofocus
+        ></textarea>
+      </form>
+      <div class="buttons-container">
+        <div class="advice">
+          <ul>
+            <li>Apenas letras minúsculas e com no máximo 8 letras.</li>
+          </ul>
+        </div>
+        <button class="buttons start-button">Salvar e começar</button>
+        <button class="buttons new-word-button" onclick="goToHome()">
+          Cancelar
+        </button>
+      </div>
+    </main>
+    <footer>
+      &copy; Powered by
+      <a href="http://www.linkedin.com/in/fernandosmo" target="_blank"
+        >Fernando Silva</a
+      >
+      - 2022
+    </footer>
+    <script src="./js/scripts.js"></script>
+    <script type="module" src="./js/new-word.js"></script>
+  </body>
+</html>
