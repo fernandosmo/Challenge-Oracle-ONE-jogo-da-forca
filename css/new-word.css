@@ -54,7 +54,7 @@ textarea:focus {
   outline: none;
 }
 
-.insert-word {
+.insert-new-word {
   background-color: #e5e5e5;
   color: #0a3871;
   font-family: 'Poppins', sans-serif;
@@ -146,8 +146,9 @@ li::before {
   }
 
   .buttons {
-    width: 12em;
+    width: 9em;
     height: 3em;
+    font-size: 0.8em;
   }
 
   textarea {

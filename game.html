@@ -7,10 +7,24 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/new-word.css" />
     <link rel="stylesheet" href="./css/game.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
-  <link rel="manifest" href="./img/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
 
     <title>Hangman ONE - Jogo</title>
   </head>
@@ -29,9 +43,14 @@
       </div>
     </header>
     <main>
+      <section class="mobile-input">
+        <textarea type="text" class="txt" autofocus></textarea>
+      </section>
+
       <section class="hang-section">
         <canvas width="300" height="450"> </canvas>
       </section>
+
       <section class="words">
         <div class="container-inserts"></div>
         <div class="container-wrongs">
@@ -44,7 +63,6 @@
         </div>
       </section>
 
-      <section class="mobile-input"><textarea type="text" class="txt" autofocus></textarea></section>
       <section class="buttons-container">
         <button class="buttons start-button" onclick="goToGame()">
           Novo jogo

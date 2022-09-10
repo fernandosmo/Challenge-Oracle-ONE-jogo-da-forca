@@ -1,5 +1,5 @@
 const body = document.querySelector('body');
-const insertWord = document.querySelector('.insert-word');
+const insertWord = document.querySelector('.insert-new-word');
 const saveButton = document.querySelector('.start-button');
 const alertRules = document.querySelector('ul');
 
