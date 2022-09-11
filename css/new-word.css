@@ -139,19 +139,19 @@ li::before {
     font-size: 2em;
   }
 
-  
-}
-
-
-@media only screen and (max-width: 450px) {
   .buttons-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
+  
+}
+
+
+@media only screen and (max-width: 450px) {
 
   .buttons {
-    width: 9em;
+    width: 12em;
     height: 3em;
     font-size: 0.8em;
   }
